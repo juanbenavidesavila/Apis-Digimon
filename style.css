@@ -2,6 +2,9 @@ html {
   height: 100%;
   width: 100%;
 }
+body {
+  background-color:#2AA950 ;
+}
 
 #digimons {
   width: 100%;
@@ -11,7 +14,7 @@ html {
 }
 .digi {
   text-align: center;
-  border: 1px solid #efefef;
+  border: 1px solid black;
   border-radius: 5px;
   -webkit-box-shadow: 11px 16px 31px -27px rgba(0,0,0,0.85);
   -moz-box-shadow: 11px 16px 31px -27px rgba(0,0,0,0.85);
@@ -19,7 +22,47 @@ html {
 }
 .digi img {
   width: 250px;
+
 }
 .digi h2 {
   margin: 0px;
 }
+
+
+@media only screen and (min-device-width: 480px){
+  body {
+    background-color:#2AA950 ;
+  }
+
+}
+
+@media only screen and (max-device-width: 768px){
+  body {
+    background-color:#FFDD90 
+  }
+}
+
+@media (min-width:801px) {
+  body {
+    background-color: #0F7798
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
